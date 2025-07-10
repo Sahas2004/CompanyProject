@@ -1,0 +1,58 @@
+.team-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  background-color: #c5c4c4;
+  margin-bottom: 7px;
+}
+
+.team-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a2b4c;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 8px 20px black;
+  text-align: center;
+}
+
+.team-text p {
+  font-size: 1rem;
+  color: #141515;
+  max-width: 600px;
+}
+
+.reach-button {
+  background-color: #ec9900;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.reach-button:hover {
+  background-color: #cf8400;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .team-intro {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .team-button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .reach-button {
+    display: inline-block;
+    width: auto;
+  }
+}

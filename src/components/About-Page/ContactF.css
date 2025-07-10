@@ -1,0 +1,270 @@
+
+.contact-sectionf {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  background: #111 !important;
+  color: white;
+  gap: 2rem;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-left h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-left ul {
+  list-style: none;
+  padding-left: 0;
+  
+}
+
+.contact-left li {
+  margin-bottom: 0.5rem;
+}
+
+/* === Form Styling === */
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-right h5 {
+  color: #ffae00;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.contact-right h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+} 
+
+.contact-right {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-right h5 {
+  color: #007bff;
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-right h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-right textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+.captcha-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.captcha-box input[type="checkbox"] {
+  transform: scale(1.1);
+}
+
+.captcha-box label {
+  font-size: 13px;
+  color: #555;
+}
+
+.captcha-img {
+  height: 30px;
+  margin-left: auto;
+}
+
+
+
+
+
+
+
+.animated-form .form-group {
+  margin-bottom: 1rem;
+  animation: fadeUpForm 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+
+@keyframes fadeUpForm {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+  font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+
+.captcha-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  color: #fff;
+  
+}
+
+.captcha-box input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #ffa500;
+}
+
+.captcha-box label {
+  font-size: 0.95rem;
+  user-select: none;
+}
+
+.captcha-img {
+  height: 34px;
+  object-fit: contain;
+}
+
+
+form button {
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(to right, #ffa500, #ff4500);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 12px rgba(255, 165, 0, 0.4);
+}
+
+form button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(255, 140, 0, 0.6);
+  background: linear-gradient(to right, #ffb700, #ff6700);
+}
+
+
+
+
+
+.branding-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.company-logo {
+  width: 160px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+}
+
+.company-logo:hover {
+  transform: scale(1.05);
+}
+
+.linkedin-icon {
+  width: 15px;
+  height: 15px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: grayscale(100%) brightness(1.2);
+}
+
+.linkedin-icon:hover {
+  transform: scale(1.15);
+  filter: grayscale(0%) drop-shadow(0 0 6px #0077b5);
+}
+
+.social-icons img:not(.company-logo) {
+  width: 50px;
+  height: auto;
+  margin: 0 5px;
+}
+
+
+
+
+.contact-left ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  transition: color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.contact-left ul li:hover {
+  color: #e09b07; 
+  transform: translateX(4px); 
+  
+}
+
+.contact-footer {
+  background-color: #111; 
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+

@@ -1,0 +1,116 @@
+.search-bar-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  font-family: 'Segoe UI', sans-serif;
+  background: #ce9723;
+  
+}
+
+.filter-button,
+.search-icon-button,
+.action-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #9dff35;
+  background: transparent;
+  color: #140b10;
+  padding: 8px 16px;
+  border-radius: 20px;
+   font-weight: bold; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 10px 16px;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  flex: 1;
+  min-width: 180px;
+  max-width: 400px;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(205, 140, 116, 0.2);
+}
+
+.search-icon-button {
+  border-radius: 50%;
+  padding: 10px;
+  max-width: 50px;
+  min-height: 40px;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.action-button:hover,
+.filter-button:hover,
+.search-icon-button:hover {
+  background-color: #c7c2c0;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .search-bar-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .action-buttons {
+    justify-content: center;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .filter-button,
+  .search-icon-button,
+  .action-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+
+
+.copy-message {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  animation: fadeOut 2s ease-out;
+}
+
+@keyframes fadeOut {
+  0%   { opacity: 1; }
+  80%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.Register_Button{
+  background-color: #2C2C58;
+}

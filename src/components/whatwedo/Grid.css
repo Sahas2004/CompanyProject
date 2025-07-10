@@ -1,0 +1,111 @@
+
+.Grid1 {
+  background: linear-gradient(#cf7979 0%, #c0c031 100%);
+  color: black;
+  overflow-x: hidden; 
+}
+
+
+.card-section-bg {
+  padding: 50px 0;
+}
+
+.custom-card {
+  width: 100%;
+  max-width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-card-img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+  object-fit: cover;
+}
+
+.custom-card-body {
+  padding: 25px;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-card-title {
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 1.5rem; 
+}
+
+.custom-card-text {
+  color: #444;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.custom-card:hover {
+  transform: scale(1.03);
+}
+
+.custom-card-body:hover {
+  transform: scale(1.02);
+}
+
+
+#container_fluid_of_Grid {
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, yellow, #edc900);
+  text-align: center;
+}
+
+
+#h1_of_Grid {
+  width: 100%;
+  font-size: 1.8rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+#h1_of_Grid:hover {
+  transform: scale(1.1);
+}
+
+#button_of_Grid {
+  color: black;
+  font-size: 1.1rem;
+  width: 180px;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 30px;
+}
+
+#button_of_Grid:hover {
+  transform: scale(1.1);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .custom-card-title {
+    font-size: 1.3rem;
+  }
+
+  .custom-card-text {
+    font-size: 0.9rem;
+  }
+
+  #h1_of_Grid {
+    font-size: 1.5rem;
+  }
+
+  #button_of_Grid {
+    width: 150px;
+    font-size: 1rem;
+  }
+}

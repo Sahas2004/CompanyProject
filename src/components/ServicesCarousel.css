@@ -1,0 +1,147 @@
+
+
+
+.carousel-wrapper.single-card {
+  padding: 60px 20px;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee, #fbc2eb);
+  text-align: center;
+
+}
+
+.carousel-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.carousel-title .highlight {
+  color: #1c1818;
+}
+
+
+.carousel-subtitle {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.recruitment-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: #a79999cc;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.recruitment-content {
+  flex: 1 1 400px;
+  padding: 20px;
+  text-align: left;
+}
+
+.card-title {
+  font-size: 2rem !important;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000000 !important; 
+  text-align: center;
+  white-space: nowrap;
+}
+
+.card-description {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.recruitment-image {
+  flex: 1 1 200px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.recruitment-image img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  height: 290px;
+}
+
+
+@media (max-width: 991px) {
+  .recruitment-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .recruitment-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .recruitment-image {
+    width: 100%;
+  }
+
+  .recruitment-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-title {
+    font-size: 1.5rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.3rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .card-title {
+    font-size: 0.1rem; 
+  }
+}
+
+@media (max-width: 576px) {
+  body,
+  html {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+  }
+
+  .carousel-wrapper.single-card {
+    padding-bottom: 0 !important;
+  }
+
+  .recruitment-card {
+    margin-bottom: 0 !important;
+  }
+
+  .recruitment-image img {
+    display: block;
+    margin-bottom: 0 !important;
+  }
+}
+

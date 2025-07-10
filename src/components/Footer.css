@@ -1,0 +1,79 @@
+.footer-section {
+  background-color: #0f1012;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.footer-logo {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.footer-heading {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.footer-links,
+.footer-contact {
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
+
+.footer-links li :hover,
+.footer-contact li:hover {
+  color: #f9a825;
+  cursor: pointer;
+}
+
+.LI-A:hover{
+  color: #f9a825;
+  cursor: pointer;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+
+
+.footer-links li link {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.footer-links li a {
+  color: #fff; 
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+.Anchor_of_Footer{
+  text-decoration: none;
+  color: white;
+}
+
+.ins:hover {
+  color: #c029a7;
+}
+.linkd:hover {
+  color: #171ad7; 
+}
+
+.footer-links li a:hover {
+  color: #f9a825;
+  text-decoration: underline;
+}
+
+.Footer-List111:hover{
+  color: #f9a825;
+}

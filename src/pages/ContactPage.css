@@ -1,0 +1,116 @@
+.contact-hero {
+  position: relative;
+  background-image: url('../assets/contact.jpeg');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #f9a825;
+}
+
+.contact-content p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.contact-section {
+  display: flex;
+  justify-content: center; 
+padding: 60px 20px;
+margin-right: 5px;
+ background: linear-gradient(to right, #fbc2eb, #a6c1ee, #fbc2eb) !important ;
+}
+
+.right-side {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px; 
+  background:#6d6c6c !important;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+  margin-right: 5px;
+}
+
+
+
+
+
+.form-tabs {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px; 
+}
+
+.form-tabs button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd ;
+  background: #484545 !important;
+  cursor: pointer;
+  transition: background 0.3s; 
+  border-radius: 8px;
+}
+
+.form-tabs button.active {
+  background:#07415d !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.form-container {
+  background: #6c6c6d !important;
+  padding: 30px;              
+  border-radius: 12px;         
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  width: 100%;
+  padding: 12px 15px;          
+  margin-bottom: 15px;         
+  font-size: 15px;
+  border: 1px solid #ccc !important;
+  border-radius: 6px;
+  background-color: #fff !important;
+  box-sizing: border-box;
+}
+
+
+.form-container textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+
+.form-container button[type="submit"],
+.form-container button[type="button"] {
+  padding: 12px 25px;
+  background-color: #37375a !important;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.form-container button:hover {
+  background-color: #2e2e4d !important;
+}
+

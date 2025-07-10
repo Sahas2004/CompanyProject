@@ -1,0 +1,41 @@
+.timeline-container {
+  position: relative;
+  padding-left: 40px; 
+}
+
+.timeline {
+  border-left: 2px solid #f9a825;
+  padding-left: 90px; 
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -100px; 
+  top: 0;
+  background: #f9a825;
+  color: black;
+  padding: 5px 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.timeline-content h5 {
+  color: #fff;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.timeline-content p {
+  color: #ffff;
+  margin-left: 10px;
+}
+
+

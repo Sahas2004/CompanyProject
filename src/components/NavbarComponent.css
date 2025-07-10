@@ -1,0 +1,136 @@
+
+.custom-navbar {
+
+   background: linear-gradient(to right, #006a4e, #800000); 
+
+  border-color: #5f9493;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  overflow: visible;
+  min-height: 120px;
+  position: sticky  !important;
+  top: 0;
+  z-index: 1040;
+
+}
+
+.navbar-logo {
+  
+  width: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+ 
+  transform: none;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  line-height: 1.1;
+  font-family: 'Montserrat', sans-serif;
+}
+.brand-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+
+.brand-subtitle {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #f9a825;
+}
+.thin-text {
+  font-weight: 300;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-size: 1.01rem;
+  font-weight: 600;
+  padding: 6px 10px !important;
+  margin: 0 2px;
+  letter-spacing: 0.4px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f9a825 !important;
+  transition: 0.2s;
+}
+
+
+
+.custom-dropdown .dropdown-menu {
+  background-color: #000 !important;
+  padding: 0;
+  border-radius: 0;
+}
+
+.custom-dropdown .dropdown-item {
+  color: #fff !important;
+  font-size: 0.82rem;
+  padding: 8px 16px;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #f9a825 !important;
+  color: #000 !important;
+}
+
+
+.navbar-small-btn {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  line-height: 1.2;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 8px;
+  }
+
+  .brand-title {
+    font-size: 1rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.75rem;
+  }
+
+  .custom-navbar {
+    min-height: 80px;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-collapse {
+    background-color: #084762;
+    padding: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    text-align: center;
+    width: 100%;
+    margin: 0.4rem 0;
+  }
+}
+
+.NavLinks{
+  font-size: 1.1rem !important;
+}
+
+.active.nav-link {
+  color: #ffd700 !important;
+  border-bottom: 2px solid #ffd700;
+}

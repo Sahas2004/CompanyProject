@@ -1,0 +1,20 @@
+.job-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  padding: 20px;
+  background: linear-gradient(135deg, #c0c031 0%, #cf7979 100%)
+}
+
+.Div_of_JobCard {
+  position: relative;
+}
+
+.Button_of_JobCard {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  
+}

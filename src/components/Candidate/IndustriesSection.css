@@ -1,0 +1,50 @@
+
+
+.underline {
+  width: 60px;
+  height: 3px;
+  background-color: #f36f56;
+}
+
+.industry-card {
+  background-color: #ea0606;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.industry-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  background-image: linear-gradient(#ed5082,#FE9D82);
+}
+
+.card-link:hover h5 {
+  color: #f36f56; 
+}
+
+.industry-card {
+  width: 100%;
+  min-height: 220px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.industry-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.button_of_IndustriesSection:hover{
+    background-color: white;
+    color: black;
+}
+
+.industries-section-bg {
+  background: linear-gradient(135deg, #cf7979 0%,#c0c031 100%);
+         color: black;
+}
+
+
+
+

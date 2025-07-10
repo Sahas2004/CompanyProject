@@ -1,0 +1,53 @@
+.video-background-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    
+  object-position: center;
+  z-index: -1;
+  opacity: 0.9;        
+}
+
+
+.video-overlay-content {
+  z-index: 2;
+  padding: 2rem;
+  max-width: 90%;
+  
+}
+
+.video-overlay-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.video-overlay-content p {
+  font-size: 1.5rem;
+ color: chocolate;
+ text-align: center;
+ 
+}
+
+@media (max-width: 768px) {
+  .video-overlay-content h1 {
+    font-size: 2rem;
+  }
+
+  .video-overlay-content p {
+    font-size: 1rem;
+  }
+}
